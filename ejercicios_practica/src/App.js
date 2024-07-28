@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import CounterApp from './CounterApp';
+import DataDisplay from './DataDisplay';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        AQUÍ AGREGUE SUS COMPONENTES
-      </header>
+    <div>
+      <CounterApp />
+      <DataDisplay />
     </div>
   );
-}
+};
 
 export default App;
